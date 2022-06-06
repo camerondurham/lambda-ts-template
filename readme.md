@@ -14,10 +14,7 @@ creating lambda function:
 aws lambda create-function --function-name hello-world --runtime "nodejs16.x" --role arn:aws:iam::123456789012:role/lambda-ex --zip-file "fileb://dist/index.zip" --handler index.handler
 ```
 
-**example**
-```sh
-aws lambda create-function --function-name hello-world --runtime "nodejs16.x" --role arn:aws:iam::833516167243:role/lambda-role-camdurha-ts  --zip-file "fileb://dist/index.zip" --handler index.handler
-```
+how to create lambda execution role: https://docs.aws.amazon.com/lambda/latest/dg/lambda-intro-execution-role.html
 
 update function code:
 
